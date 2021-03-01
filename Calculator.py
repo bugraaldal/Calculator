@@ -185,7 +185,7 @@ def fin(calculation):
             else:
                 field.insert(0, error)
         except:
-            print("Something went wrong.")
+            pass
 
 
 B0 = tk.Button(root, text="0", command=lambda: append_(0), width=7)
